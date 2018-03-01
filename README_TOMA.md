@@ -9,6 +9,7 @@ https://github.com/facebook/create-react-app
 4. `sudo chown -R user . && chgrp -R user .`
 5. `npx create-react-app .`
 6. Do the flow and react-router mentioned in the doc
+7. yarn add redux react-redux https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f
 
 ## 2. Set up Eslint, Airbnb and Prettier with
 source : https://georgespake.com/blog/eslint/
