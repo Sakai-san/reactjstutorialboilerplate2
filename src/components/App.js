@@ -7,13 +7,11 @@ import Upload from './Upload';
 class App extends React.Component {
   render() {
     return (
-      <main>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/picture/:id" component={PictureDetail} />
-          <Route path="/upload" component={Upload} />
-        </Switch>
-      </main>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/picture/:id" component={PictureDetail} />
+        <Route path="/upload" component={Upload} />
+      </Switch>
     );
   }
 }
