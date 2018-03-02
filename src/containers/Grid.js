@@ -5,10 +5,6 @@ import GridItem from './GridItem';
 import {populatePictures} from '../actions/pictures';
 
 class Grid extends React.Component{
-	constructor(props){
-		super(props);
-	}
-
 	componentDidMount(){
 		if( this.props.pictures.length === 0) {
 			fetch("http://studybyyourself.com/wp-admin/admin-ajax.php?action=get_pictures")

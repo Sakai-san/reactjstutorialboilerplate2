@@ -1,5 +1,6 @@
+// @flow
 // reducer : change a specific part of the store (here the pictures part)
-export default function (state=[], action){
+export default function (state:Array<Object> = [], action:Object):Array<Object>{
 	if( action.type === "INITIALIZATION" ){
 		return action.payload;
 	}

@@ -5,9 +5,6 @@ import {Link} from 'react-router-dom';
 import {populatePictures} from '../actions/pictures';
 
 class PictureDetail extends React.Component{
-	constructor(props){
-		super(props);
-	}
 
 	componentDidMount(){
 		if( this.props.pictures.length === 0) {
