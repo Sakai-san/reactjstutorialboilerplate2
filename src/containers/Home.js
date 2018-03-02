@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
-//import Grid from '../containers/Grid';
+import Grid from '../containers/Grid';
 
 class Home extends React.Component{
 	render(){
@@ -14,7 +14,7 @@ class Home extends React.Component{
 					</div>
 					<br className="clear" />
 				</div>
-				{/*<Grid /> */}
+				<Grid />
 			</div>
 		);
 	}

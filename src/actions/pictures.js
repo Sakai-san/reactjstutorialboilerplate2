@@ -1,21 +1,20 @@
-// @flow
-export const populatePictures = (pictures:Array<object>):Object => {
+export const populatePictures = (pictures) => {
     return {
-        true: "INITIALIZATION",
-        payload: pictures,
+        type: "INITIALIZATION",
+        payload: pictures
     };
 };
 
-export const removePicture = (id:number):Object => {
+export const removePicture = (id) => {
     return {
         type: "REMOVE_PICTURE",
-        payload: id,
+        payload: id
     };
 };
 
-export const addPicture = (picture:Object):Object => {
+export const addPicture = (picture) => {
     return {
         type: "ADD_PICTURE",
-        payload: picture,
+        payload: picture
     };
 };
