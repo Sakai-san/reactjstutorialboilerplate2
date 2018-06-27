@@ -14,7 +14,7 @@ https://github.com/facebook/create-react-app
 ## 2. Set up Eslint, Airbnb and Prettier with
 source : https://georgespake.com/blog/eslint/
 
-7. `yarn add eslint --dev && yarn add babel-eslint --dev`
+7. `yarn add babel-eslint --dev`
 8. `./node_modules/.bin/eslint --init` (follow the instruction, eslint use a popular style guide)
 9. `yarn`
 10. add a script under `scripts` in package.json : `"lint" : "eslint ."`
